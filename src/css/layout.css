@@ -91,7 +91,8 @@
   background-color: #d8d8d8;
   height: 454px;
 	position: absolute;
-	top: -20%;	
+	top: -20%;
+  background-image: url('../img/bg-img.jpg');
 }
 
 .header {
@@ -113,10 +114,9 @@
   align-items: flex-start;
 }
 
-.small-img {
-  width: 100px;
-  height: 75px;
-  background-color: #d8d8d8;
+.small-img > img{
+  max-width: 100px;
+  max-height: 75px;
 }
 
 .news-row {
@@ -187,5 +187,8 @@
   .hot-news {
     top: -40%;
     left: 44%;
+  }
+  .small-img > img {
+    max-height: 68px
   }
 }
