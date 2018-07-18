@@ -4,6 +4,7 @@
 		<title>Elements</title>
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" href="css/layout.css">
+		<link rel="stylesheet" type="text/css" href="css/modal.css">
 	</head>
 
 	<body>
@@ -13,6 +14,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="five img-container out-of-flow">
+					<div class="hot-news" id="modal-button">
+						<h4>Add Blockers: Setback or Spark for innovation</h4>
+					</div>
 				</div>
 				<div class="five img-container">
 				</div>
@@ -41,6 +45,24 @@
 				</div>
 			</div>		
 		</div>
+
+		<div class="overlay is-hidden" id="overlay">
+		  <div class="modal">
+		  	<div class="modal-heading">
+					<span class="close" id="close-button">&times;</span>
+					<h4>Add Blockers: Setback or Spark for innovation</h4>
+				</div>
+		  	<div class="modal-content">	  		
+			    <p>
+			    	In 2015, the industry lost a staggering $22 billion in revenue due to ad blockers. Publishers are lamenting their losses. But if users are annoyed enough at ads that they want to block them, shouldn’t advertisers be doing something different?
+			    </p>
+			    <p>
+						This rough downturn could be the spark the industry needs to disrupt the old paradigms and create innovative ads for a new digital landscape. 
+			    </p>
+		  	</div>
+		  </div>
+		</div>
+
 	</body>
 
 	<script type="text/javascript" src="js/index.js"></script>
