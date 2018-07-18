@@ -91,10 +91,6 @@
   height: 454px;
   position: absolute;
   top: -20%;
-  background-image: url('../img/bg-img.jpg');
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;
 }
 
 .header {
@@ -117,8 +113,8 @@
 }
 
 .small-img > img{
-  max-width: 100px;
-  max-height: 75px;
+  width: 100px;
+  height: 75px;
 }
 
 .news-row {
