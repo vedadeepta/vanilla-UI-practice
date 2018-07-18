@@ -58,3 +58,9 @@
     width: 332px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .modal {
+    width: 286px;
+  }
+}
